@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vokabi — Gizlilik Politikası / Privacy Policy</title>
+<style>
+  :root{
+    --bg:#F7F9FA; --surface:#FFFFFF; --text:#0F1C1E; --muted:#53646A;
+    --accent:#0E7C86; --border:#E2E8EA;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0C1416; --surface:#152024; --text:#EAF2F3; --muted:#9AB0B5;
+           --accent:#3FB6BE; --border:#24353A; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:28px;flex-wrap:wrap}
+  .brand{font-weight:800;font-size:26px;color:var(--accent);letter-spacing:-0.5px}
+  .toggle{display:flex;gap:4px;background:var(--surface);border:1px solid var(--border);
+    border-radius:999px;padding:4px}
+  .toggle button{border:0;background:transparent;color:var(--muted);font:inherit;font-weight:600;
+    padding:6px 14px;border-radius:999px;cursor:pointer}
+  .toggle button.active{background:var(--accent);color:#fff}
+  h1{font-size:28px;margin:0 0 6px;letter-spacing:-0.5px}
+  .date{color:var(--muted);font-size:14px;margin-bottom:28px}
+  h2{font-size:19px;margin:28px 0 8px}
+  p,li{color:var(--text)}
+  .muted{color:var(--muted)}
+  a{color:var(--accent)}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px 20px;margin:16px 0}
+  ul{padding-left:20px}
+  footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid var(--border);padding-top:20px}
+  [data-lang]{display:none}
+  html[lang="tr"] [data-lang="tr"]{display:block}
+  html[lang="en"] [data-lang="en"]{display:block}
+  li[data-lang]{display:none}
+  html[lang="tr"] li[data-lang="tr"]{display:list-item}
+  html[lang="en"] li[data-lang="en"]{display:list-item}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Vokabi</div>
+    <div class="toggle">
+      <button id="btn-tr" class="active" onclick="setLang('tr')">Türkçe</button>
+      <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+  </header>
+
+  <!-- TR -->
+  <div data-lang="tr">
+    <h1>Gizlilik Politikası</h1>
+    <div class="date">Yürürlük tarihi: 19 Ekim 2026</div>
+
+    <div class="card">
+      Vokabi, kilit ekranında İngilizce kelime öğreten bir iOS uygulamasıdır. Gizliliğine önem veriyoruz.
+      Bu politika hangi verilerin işlendiğini ve nasıl korunduğunu sade bir dille anlatır.
+    </div>
+
+    <h2>Topladığımız veriler</h2>
+    <p>Hesap oluşturmanı istemiyoruz. <strong>Adını, e-postanı veya telefon numaranı toplamıyoruz.</strong>
+       Öğrenme ilerlemen, seçtiğin paketler ve ayarların yalnızca <strong>cihazında</strong> saklanır; bunları
+       sunucularımıza göndermeyiz çünkü böyle bir sunucumuz yok.</p>
+
+    <h2>Üçüncü taraf hizmetler</h2>
+    <p>Aboneliği yönetmek için sınırlı veri, aşağıdaki hizmetlerce işlenir:</p>
+    <ul>
+      <li>
+        <strong>RevenueCat</strong> — abonelik doğrulama ve yönetimi. Premium satın aldığında RevenueCat;
+        satın alma bilgini (işlem/makbuz), RevenueCat tarafından üretilen anonim bir uygulama kullanıcı
+        kimliğini ve cihaz/platform bilgisini işler. Ayrıntı:
+        <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.
+      </li>
+      <li>
+        <strong>Apple (App Store)</strong> — ödemeyi Apple işler. Apple'ın gizlilik politikasına tabidir.
+      </li>
+    </ul>
+
+    <h2>Yapmadıklarımız</h2>
+    <ul>
+      <li>Reklam göstermiyoruz.</li>
+      <li>Uygulamalar arası takip (tracking) yapmıyoruz, IDFA kullanmıyoruz.</li>
+      <li>Üçüncü taraf analitik/izleme SDK'sı eklemiyoruz.</li>
+      <li>Verini satmıyoruz.</li>
+    </ul>
+
+    <h2>Verinin saklanması ve hakların</h2>
+    <p>İlerleme verin cihazında durur. Uygulama içinde <strong>Ayarlar → Verilerimi sıfırla</strong> ile
+       tamamını silebilirsin. Uygulamayı silmek de cihazdaki yerel veriyi kaldırır. Aboneliğe dair RevenueCat
+       veya Apple'da tutulan veriler için ilgili hizmetlerin politikalarına bakabilir, aboneliğini
+       App Store üzerinden yönetebilirsin.</p>
+
+    <h2>Çocuklar</h2>
+    <p>Uygulama genel kitleye yöneliktir ve 13 yaş altı çocuklardan bilerek veri toplamaz.</p>
+
+    <h2>Değişiklikler</h2>
+    <p>Bu politikayı zaman zaman güncelleyebiliriz. Güncel sürüm her zaman bu sayfada yayınlanır.</p>
+
+    <h2>İletişim</h2>
+    <p>Soruların için: <a href="mailto:vokabiapplication@gmail.com">vokabiapplication@gmail.com</a></p>
+  </div>
+
+  <!-- EN -->
+  <div data-lang="en">
+    <h1>Privacy Policy</h1>
+    <div class="date">Effective date: October 19, 2026</div>
+
+    <div class="card">
+      Vokabi is an iOS app that teaches English words on your lock screen. We care about your privacy.
+      This policy explains, in plain language, what data is processed and how it is protected.
+    </div>
+
+    <h2>Data we collect</h2>
+    <p>We do not ask you to create an account. <strong>We do not collect your name, email, or phone number.</strong>
+       Your learning progress, selected packs, and settings are stored only <strong>on your device</strong>.
+       We do not send them to our servers, because we do not run one.</p>
+
+    <h2>Third-party services</h2>
+    <p>To manage your subscription, limited data is processed by the following services:</p>
+    <ul>
+      <li>
+        <strong>RevenueCat</strong> — subscription validation and management. When you buy Premium, RevenueCat
+        processes your purchase information (transaction/receipt), a RevenueCat-generated anonymous app user ID,
+        and device/platform details. See
+        <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.
+      </li>
+      <li>
+        <strong>Apple (App Store)</strong> — Apple handles payment and is governed by Apple's privacy policy.
+      </li>
+    </ul>
+
+    <h2>What we do not do</h2>
+    <ul>
+      <li>We show no ads.</li>
+      <li>We do not track you across apps and do not use the IDFA.</li>
+      <li>We add no third-party analytics or tracking SDK.</li>
+      <li>We do not sell your data.</li>
+    </ul>
+
+    <h2>Data retention and your rights</h2>
+    <p>Your progress stays on your device. You can erase all of it in the app via
+       <strong>Settings → Reset my data</strong>. Deleting the app also removes the local data. For
+       subscription data held by RevenueCat or Apple, please refer to their policies, and manage your
+       subscription through the App Store.</p>
+
+    <h2>Children</h2>
+    <p>The app is intended for a general audience and does not knowingly collect data from children under 13.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy from time to time. The current version is always published on this page.</p>
+
+    <h2>Contact</h2>
+    <p>Questions? <a href="mailto:vokabiapplication@gmail.com">vokabiapplication@gmail.com</a></p>
+  </div>
+
+  <footer>© 2026 Vokabi</footer>
+</div>
+
+<script>
+  function setLang(l){
+    document.documentElement.lang = l;
+    document.getElementById('btn-tr').classList.toggle('active', l==='tr');
+    document.getElementById('btn-en').classList.toggle('active', l==='en');
+    try{ localStorage.setItem('vokabi-lang', l); }catch(e){}
+  }
+  (function(){
+    var saved;
+    try{ saved = localStorage.getItem('vokabi-lang'); }catch(e){}
+    var nav = (navigator.language||'tr').slice(0,2);
+    setLang(saved || (nav==='en'?'en':'tr'));
+  })();
+</script>
+</body>
+</html>
